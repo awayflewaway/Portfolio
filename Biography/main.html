@@ -1,19 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biography</title>
 </head>
+
+<style>
+    .container {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5px;
+    }
+
+    .image {
+        display: inline-block;
+        border: 1px solid purple;
+        padding: 1rem 1rem;
+        vertical-align: middle;
+    }
+
+    .text {
+        font-size: 70px;
+        padding-left: 40px;
+    }
+</style>
+
 <body>
     <header>
         <h1>A Biography Where Nothing Works!</h1>
+        <div class="buttons">
+            <button type="button">Try to click me!!</button>
+            <button type="button">NO, ME!</button>
+            <button type="button">What about me?</button>
+            <button type="button">I'm sad :(</button>
+            <button type="button">Too slow!</button>
+            <button type="button">I wanna be pressed</button>
+        </div>
     </header>
 
-    <nav>
-        
-    </nav>
-    
+    <div class="container">
+        <div class="image">
+            <img src="https://pbs.twimg.com/profile_images/1477445096589119490/AyXRN88O_400x400.jpg">
+        </div>
+
+        <div class="text">
+            <p>If nothing works, keep trying</p>
+        </div>
+    </div>
 </body>
+
 </html>
