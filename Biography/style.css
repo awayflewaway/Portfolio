@@ -1,19 +1,29 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background: #F9F5FF;
+    background: #F3EBFF;
 }
 
-button:hover {
+.upper:hover {
     opacity: 0;
 }
 
-header {
-    text-align: center;
+.downer:hover {
+    cursor: pointer;
+}
+
+.downer {
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .buttons {
     background: #998FC7;
+    border-radius: 4px;
     padding: 20px;
+}
+
+header {
+    text-align: center;
 }
 
 button {
@@ -29,8 +39,12 @@ button {
     margin-left: 20px;
 }
 
+.mid {
+    padding: 30px;
+    margin-left: 390px;
+}
+
 img {
-    float: left;
     width: 450px;
     height: 450px;
     object-fit: cover;
@@ -43,16 +57,31 @@ img {
     column-gap: 5px;
 }
 
+.container2 {
+    margin-left: 60px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding-top: 10px;
+}
+
 .image {
     display: inline-block;
     border: 1.5px solid purple;
-    padding: 1rem 1rem;
+    padding: 1rem 1rem; 
     vertical-align: middle;
 }
 
 .text {
     font-size: 70px;
     padding-left: 40px;
+}
+
+.chrono {
+    font-size: 18px;
+    margin-right: 100px;
+    line-height: 2;
 }
 
 .material-icons {
@@ -75,4 +104,19 @@ img {
 .linkedin {
     background: #007bb5;
     color: white;
+}
+
+.social {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.author {
+    margin-right: 20px;
+    margin-left: 20px;
 }
