@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #F9F5FF;
+}
+
+button:hover {
+    opacity: 0;
+}
+
+header {
+    text-align: center;
+}
+
+.buttons {
+    background: #998FC7;
+    padding: 20px;
+}
+
+button {
+    background-color: #D4C2FC;
+    border: none;
+    color: #28262C;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+img {
+    float: left;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.container1 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.image {
+    display: inline-block;
+    border: 1.5px solid purple;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+
+.text {
+    font-size: 70px;
+    padding-left: 40px;
+}
+
+.material-icons {
+    padding: 10px;
+    font-size: 40px;
+    width: 40px;
+    text-decoration: none;
+    margin: 5px 80px;
+}
+
+.material-icons:hover {
+    opacity: 0.9;
+}
+
+.instagram {
+    background: #cb2027;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
