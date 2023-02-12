@@ -3,6 +3,9 @@
 
 <head>
     <link rel=”stylesheet” href=”https://fonts.googleapis.com/icon?family=Material+Icons”>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +13,39 @@
 </head>
 
 <style>
+    body {
+        font-family: 'Roboto Condensed', sans-serif;
+        background: #F9F5FF;
+    }
+
+    button:hover {
+        opacity: 0;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .buttons {
+        background: #998FC7;
+        padding: 20px;
+    }
+
+    button {
+        background-color: #D4C2FC;
+        border: none;
+        color: #28262C;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;
+        margin-left: 20px;
+    }
+
+    .containers {}
+
     img {
         float: left;
         width: 450px;
@@ -61,7 +97,7 @@
 
 <body>
     <header>
-        <h1>A Biography Where Nothing Works!</h1>
+        <h1 style="font-size: 50px;">Lucas "Sacul" Modesto</h1>
         <div class="buttons">
             <button type="button">Try to click me!!</button>
             <button type="button">NO, ME!</button>
@@ -73,30 +109,33 @@
     </header>
 
     <div class="containers">
-        <div class="container1">
-            <div class="image">
-                <img src="https://pbs.twimg.com/profile_images/1477445096589119490/AyXRN88O_400x400.jpg">
+        
+        <div class="mid">
+            <div class="container1">
+                <div class="image">
+                    <img src="https://pbs.twimg.com/profile_images/1477445096589119490/AyXRN88O_400x400.jpg">
+                </div>
+
+                <div class="text">
+                    <p>If nothing works, keep trying</p>
+                </div>
             </div>
 
-            <div class="text">
-                <p>If nothing works, keep trying</p>
-            </div>
-        </div>
+            <div class="container1">
+                <div class="chrono">
+                    <ul>
+                        <li><b>2016-2019</b>- Escola de Tecnologia Digital</li>
+                        <li><b>2019-2022</b>- University of Worcester - BA, Graphic Design</li>
+                        <li><b>2022-Eternity</b>- Looking for a job as an Illustrator</li>
+                    </ul>
+                    <p>If you have a job oportunity for me, contact me <a
+                            href="https://www.linkedin.com/in/lucas-modesto-0b30a2176/">HERE</a></p>
+                </div>
 
-        <div class="container1">
-            <div class="chrono">
-                <ul>
-                    <li><b>2016-2019</b>- Escola de Tecnologia Digital</li>
-                    <li><b>2019-2022</b>- University of Worcester - BA, Graphic Design</li>
-                    <li><b>2022-Eternity</b>- Looking for a job as an Illustrator</li>
-                </ul>
-                <p>If you have a job oportunity for me, contact me <a
-                        href="https://www.linkedin.com/in/lucas-modesto-0b30a2176/">HERE</a></p>
-            </div>
-
-            <div class="image">
-                <img
-                    src="https://media.licdn.com/dms/image/D4D03AQG9NqjeoUDbnw/profile-displayphoto-shrink_800_800/0/1671856865320?e=1681948800&v=beta&t=rX-Qx5IkeriV0gfi0BAdHcf_t3IHpVRT9u8i5UtICTA">
+                <div class="image">
+                    <img
+                        src="https://media.licdn.com/dms/image/D4D03AQG9NqjeoUDbnw/profile-displayphoto-shrink_800_800/0/1671856865320?e=1681948800&v=beta&t=rX-Qx5IkeriV0gfi0BAdHcf_t3IHpVRT9u8i5UtICTA">
+                </div>
             </div>
         </div>
 
@@ -104,9 +143,15 @@
             <h3>Social Media Icons</h3>
 
             <a href="https://www.instagram.com/lucasartpieces/"><i class="material-icons instagram">instagram </i></a>
-            <a href="https://www.linkedin.com/in/lucas-modesto-0b30a2176/"><i class="material-icons linkedin">linkedin</i></a>
+            <a href="https://www.linkedin.com/in/lucas-modesto-0b30a2176/"><i
+                    class="material-icons linkedin">linkedin</i></a>
         </div>
     </div>
+
+    <footer>
+        <p>Author: David Raposo</p>
+        <p><a href="mailto:jdcro@iscte-iul.pt">jdcro@iscte-iul.pt</a></p>
+    </footer>
 </body>
 
 </html>
